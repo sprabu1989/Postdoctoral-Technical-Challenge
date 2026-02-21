@@ -9,7 +9,8 @@ This repository presents an end-to-end deep learning framework for medical image
 
 - **Task 1:** Vision Transformer-based Image Classification  
 - **Task 2:** Vision-Language Medical Report Generation  
-- **Task 3:** Semantic Image Retrieval using Fine-Tuned CLIP and BiomedCLIP  
+- **Task 3a:** Semantic Image Retrieval using BiomedCLIP
+- **Task 3b:** Semantic Image Retrieval using Fine-Tuned CLIP
 
 The project demonstrates a unified AI pipeline combining classification, cross-modal understanding, and semantic retrieval for intelligent medical AI systems.
 

@@ -1,0 +1,35 @@
+--- Report 0 ---
+FINDINGS:
+
+1.  **Lung fields:** The lung fields appear clear.
+2.  **Opacities or consolidations:** No significant opacities or consolidations are identified.
+3.  **Pleural findings:** No significant pleural findings are identified.
+4.  **Final Impression:** Normal chest X-ray.
+
+IMPRESSION:
+
+*   Normal chest X-ray.
+
+--- Report 1 ---
+FINDINGS:
+
+1.  **Lung fields:** The lung fields appear clear.
+2.  **Opacities or consolidations:** No significant opacities or consolidations are identified.
+3.  **Pleural findings:** No significant pleural findings are identified.
+4.  **Final Impression:** Normal chest X-ray.
+
+IMPRESSION:
+
+*   Normal chest X-ray.
+
+--- Report 2 ---
+FINDINGS:
+
+1.  **Lung fields:** The lung fields appear clear with no obvious consolidation, effusions, or masses.
+2.  **Opacities or consolidations:** No significant opacities or consolidations are identified.
+3.  **Pleural findings:** No pleural effusions or pneumothorax are identified.
+4.  **Final Impression:** The chest X-ray appears normal.
+
+IMPRESSION:
+
+*   Normal chest X-ray.

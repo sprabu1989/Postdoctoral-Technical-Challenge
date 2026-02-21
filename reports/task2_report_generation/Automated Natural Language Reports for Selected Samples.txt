@@ -1,0 +1,154 @@
+============================================================
+SAMPLE INDEX: 1 | GT: 0 | PRED: 0
+============================================================
+FINDINGS:
+
+1.  **Lung fields:** The lung fields appear clear.
+2.  **Opacities or consolidations:** No significant opacities or consolidations are identified.
+3.  **Pleural findings:** No significant pleural findings are identified.
+4.  **Final Impression:** Normal chest X-ray.
+
+IMPRESSION:
+
+*   Normal chest X-ray.
+
+
+
+============================================================
+SAMPLE INDEX: 3 | GT: 0 | PRED: 0
+============================================================
+FINDINGS:
+
+1.  **Lung fields:** The lung fields appear clear.
+2.  **Opacities or consolidations:** No significant opacities or consolidations are identified.
+3.  **Pleural findings:** No significant pleural findings are identified.
+4.  **Final Impression:** Normal chest X-ray.
+
+
+
+============================================================
+SAMPLE INDEX: 9 | GT: 0 | PRED: 0
+============================================================
+FINDINGS:
+
+1.  **Lung fields:** The lung fields appear clear.
+2.  **Opacities or consolidations:** No significant opacities or consolidations are identified.
+3.  **Pleural findings:** No significant pleural findings are identified.
+4.  **Final Impression:** Normal chest X-ray.
+
+IMPRESSION:
+
+*   Normal chest X-ray.
+
+
+
+============================================================
+SAMPLE INDEX: 19 | GT: 0 | PRED: 0
+============================================================
+FINDINGS:
+
+1.  **Lung fields:** The lung fields appear clear.
+2.  **Opacities or consolidations:** No significant opacities or consolidations are identified.
+3.  **Pleural findings:** No significant pleural findings are identified.
+4.  **Final Impression:** Normal chest X-ray.
+
+IMPRESSION:
+
+*   Normal chest X-ray.
+
+
+
+============================================================
+SAMPLE INDEX: 20 | GT: 0 | PRED: 0
+============================================================
+FINDINGS:
+
+1.  **Lung fields:** The lung fields appear clear.
+2.  **Opacities or consolidations:** No significant opacities or consolidations are identified.
+3.  **Pleural findings:** No significant pleural findings are identified.
+4.  **Final Impression:** Normal chest X-ray.
+
+IMPRESSION:
+
+*   Normal chest X-ray.
+
+
+
+============================================================
+SAMPLE INDEX: 0 | GT: 1 | PRED: 0
+============================================================
+FINDINGS:
+
+1.  **Lung fields:** The lung fields appear clear.
+2.  **Opacities or consolidations:** No significant opacities or consolidations are identified.
+3.  **Pleural findings:** No significant pleural findings are identified.
+4.  **Final Impression:** Normal chest X-ray.
+
+IMPRESSION:
+
+*   Normal chest X-ray.
+
+
+
+============================================================
+SAMPLE INDEX: 2 | GT: 1 | PRED: 0
+============================================================
+FINDINGS:
+
+1.  **Lung fields:** The lung fields appear clear with no obvious consolidation, effusions, or masses.
+2.  **Opacities or consolidations:** No significant opacities or consolidations are identified.
+3.  **Pleural findings:** No pleural effusions or pneumothorax are identified.
+4.  **Final Impression:** The chest X-ray appears normal.
+
+IMPRESSION:
+
+*   Normal chest X-ray.
+
+
+
+============================================================
+SAMPLE INDEX: 4 | GT: 1 | PRED: 0
+============================================================
+FINDINGS:
+
+1.  **Lung fields:** The lung fields appear clear.
+2.  **Opacities or consolidations:** No significant opacities or consolidations are identified.
+3.  **Pleural findings:** No significant pleural findings are identified.
+4.  **Final Impression:** Normal chest X-ray.
+
+IMPRESSION:
+
+*   Normal chest X-ray.
+
+
+
+============================================================
+SAMPLE INDEX: 5 | GT: 1 | PRED: 0
+============================================================
+FINDINGS:
+
+1.  **Lung fields:** The lung fields appear clear with no obvious consolidation, masses, or significant interstitial abnormalities.
+2.  **Opacities or consolidations:** No definite opacities or consolidations are identified.
+3.  **Pleural findings:** No pleural effusion or pneumothorax is identified.
+4.  **Final Impression:** The chest X-ray is unremarkable.
+
+IMPRESSION:
+
+*   No acute pulmonary process.
+
+
+
+============================================================
+SAMPLE INDEX: 6 | GT: 1 | PRED: 0
+============================================================
+FINDINGS:
+
+1.  **Lung fields:** The lung fields appear clear. There is no evidence of consolidation, pleural effusion, or pneumothorax.
+2.  **Opacities or consolidations:** No significant opacities or consolidations are identified.
+3.  **Pleural findings:** No pleural effusion or pneumothorax is identified.
+4.  **Final Impression:** The chest X-ray is unremarkable.
+
+IMPRESSION:
+
+*   Normal chest X-ray.
+

@@ -1,0 +1,10 @@
+{
+    "dataset_name": "PneumoniaMNIST",
+    "image_size_original": "28x28",
+    "image_size_model_input": "224x224",
+    "task_type": "Binary Classification",
+    "classes": [
+        "Normal",
+        "Pneumonia"
+    ]
+}

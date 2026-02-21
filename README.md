@@ -99,7 +99,7 @@ Clone the repository:
 git clone https://github.com/sprabu1989/Postdoctoral-Technical-Challenge.git
 cd repository
 
-Install dependencies:
+# Install dependencies:
 
 pip install -r requirements.txt
 

@@ -1,72 +1,117 @@
 # Postdoctoral-Technical-Challenge
 This technical challenge is designed to evaluate my ability to build end-to-end AI systems for medical imaging applications.
 
-# Medical Vision-Language and Retrieval Framework
+# Medical Vision-Language and Semantic Retrieval Framework
 
 ## Overview
 
-This repository presents a unified deep learning framework for medical image analysis consisting of three major tasks:
+This repository presents an end-to-end deep learning framework for medical image analysis integrating:
 
-1. **Task 1 – Image Classification**
-   - Vision Transformer-based medical image classification.
+- **Task 1:** Vision Transformer-based Image Classification  
+- **Task 2:** Vision-Language Medical Report Generation  
+- **Task 3:** Semantic Image Retrieval using Fine-Tuned CLIP and BiomedCLIP  
 
-2. **Task 2 – Vision-Language Report Generation**
-   - Automatic medical report generation using Vision-Language Models (VLMs).
-
-3. **Task 3 – Semantic Image Retrieval**
-   - Cross-modal retrieval system using:
-     - Fine-tuned CLIP
-     - BiomedCLIP
-
-The project demonstrates an end-to-end intelligent medical AI pipeline integrating classification, report generation, and semantic retrieval.
+The project demonstrates a unified AI pipeline combining classification, cross-modal understanding, and semantic retrieval for intelligent medical AI systems.
 
 ---
 
 ## Repository Structure
+
 repository/
 │
-├── data/ # Data loading and preprocessing utilities
-├── models/ # Model architectures and saved weights
-├── task1_classification/ # Vision Transformer classifier
-├── task2_report_generation/ # Vision-Language report generation
-├── task3_retrieval/ # Semantic search system
-├── notebooks/ # Experimental notebooks
-├── reports/ # Generated outputs and evaluation results
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
-
+├── data/                         # Data loading and preprocessing utilities  
+├── models/                       # Model architectures and saved weights  
+├── task1_classification/         # Vision Transformer classifier  
+├── task2_report_generation/      # Vision-Language report generation  
+├── task3_retrieval/              # Semantic search system  
+├── notebooks/                    # Experimental notebooks  
+├── reports/                      # Generated outputs and evaluation results  
+├── requirements.txt              # Python dependencies  
+└── README.md                     # Project documentation  
 
 ---
 
-## Task 1 – Medical Image Classification
+# Installation
+
+## 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/repository.git
+cd repository
+```
+
+## 2. Create a Virtual Environment (Recommended)
+
+### Windows
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+### Linux / macOS
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+## 3. Install Dependencies
+
+```bash
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+---
+
+# Dependencies
+
+Main libraries used in this project:
+
+- torch  
+- torchvision  
+- transformers  
+- faiss-cpu  
+- scikit-learn  
+- numpy  
+- matplotlib  
+- pandas  
+- tqdm  
+- Pillow  
+
+---
+
+# Task Descriptions
+
+## Task 1 – Vision Transformer Classification
 
 ### Objective
 To classify medical images using a Vision Transformer (ViT) architecture.
 
-### Key Components
-- Transformer-based image encoder
-- Supervised training pipeline
-- Evaluation using accuracy and classification metrics
+### Features
+- Transformer-based image encoder  
+- Supervised training pipeline  
+- Evaluation using classification metrics  
+- Performance visualization  
 
 ### Output
-- Trained classification model
-- Performance evaluation metrics
+- Trained classification model  
+- Accuracy and evaluation reports  
 
 ---
 
 ## Task 2 – Vision-Language Report Generation
 
 ### Objective
-To generate structured medical reports from input medical images.
+To generate structured medical reports directly from medical images.
 
 ### Approach
-- Vision encoder + Language decoder
-- Prompt-based report generation
-- Fine-tuned Vision-Language Model
+- Vision encoder + Language decoder architecture  
+- Prompt-based report generation  
+- Fine-tuned Vision-Language Model (VLM)  
 
 ### Output
-- Generated diagnostic reports
-- Qualitative and quantitative evaluation
+- Generated diagnostic reports  
+- Qualitative and quantitative evaluation  
 
 ---
 
@@ -76,72 +121,71 @@ To generate structured medical reports from input medical images.
 To retrieve semantically similar medical images using cross-modal embeddings.
 
 ### Implementations
-- Fine-tuned CLIP-based retrieval
-- BiomedCLIP-based retrieval
+- Fine-Tuned CLIP-based Retrieval  
+- BiomedCLIP-based Retrieval  
 
 ### Pipeline
-1. Image embedding extraction
-2. Text embedding extraction
-3. Similarity computation
-4. Top-K retrieval
+1. Image embedding extraction  
+2. Text embedding extraction  
+3. Similarity computation  
+4. Top-K image retrieval  
 
 ### Output
-- Ranked similar images
-- Retrieval accuracy metrics
+- Ranked similar images  
+- Retrieval accuracy metrics  
 
 ---
 
-## Installation
+# Experimental Notebooks
 
-Clone the repository:
+The following notebooks demonstrate full implementation:
 
-```bash
-git clone https://github.com/sprabu1989/Postdoctoral-Technical-Challenge.git
-cd repository
+- Task 1: Vision Transformer Classification  
+- Task 2: Vision-Language Report Generation  
+- Task 3: Semantic Retrieval (Fine-Tuned CLIP & BiomedCLIP)  
 
-# Install dependencies:
+Each notebook includes:
+- Data preprocessing  
+- Model loading  
+- Training / Inference  
+- Evaluation metrics  
+- Result visualization  
 
-pip install -r requirements.txt
+---
 
-Dependencies
+# Applications
 
-Main libraries used:
+This framework can be applied to:
 
-torch
-torchvision
-transformers
-faiss-cpu
-scikit-learn
-numpy
-matplotlib
-pandas
-tqdm
+- Computer-Aided Diagnosis (CAD)  
+- Automated Radiology Reporting  
+- Medical Image Search Systems  
+- Clinical Decision Support Systems  
+- Cross-modal Medical Retrieval Platforms  
 
-Experimental Notebooks
+---
 
-The following notebooks demonstrate implementation and experimentation:
+# Future Work
 
-Task 1: Vision Transformer Classification
-Task 2: Vision-Language Report Generation
-Task 3: Semantic Retrieval (Fine-Tuned CLIP & BiomedCLIP)
+- Multi-modal fusion enhancement  
+- Domain adaptation across institutions  
+- Integration of Explainable AI (XAI)  
+- Model compression and deployment optimization  
+- Real-world clinical integration  
 
-Applications
+---
 
-Computer-Aided Diagnosis (CAD)
-Automated Radiology Reporting
-Medical Image Search Systems
-Clinical Decision Support
+# Author
 
-Future Work
+Researcher in:
+- Deep Learning  
+- Medical AI  
+- Vision-Language Models  
+- Semantic Retrieval Systems  
 
-Multi-modal fusion improvements
-Domain adaptation for cross-hospital datasets
-Explainable AI integration
-Deployment optimization
+---
 
-Author
+# License
 
-Dr. S. Prabu from SRM Institute of Science & Technology, Tiruchirapalli Campus, India
-License
-
-This project is intended for academic and research purposes.
+This project is intended for academic and research purposes only.  
+For commercial usage, please contact Dr. S. Prabu from SRM Institute of Science & Technology, Tiruchirapalli Campus, India

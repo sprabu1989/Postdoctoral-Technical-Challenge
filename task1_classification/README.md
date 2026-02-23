@@ -17,5 +17,3 @@ Run Flow:
 3. train.py
 4. evaluate.py
 5. inference.py
-
-Best model saved in checkpoints/

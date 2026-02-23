@@ -18,4 +18,3 @@ Workflow:
 5. evaluator.py → evaluate predictions
 6. visualization.py → display results
 
-Outputs stored in outputs/

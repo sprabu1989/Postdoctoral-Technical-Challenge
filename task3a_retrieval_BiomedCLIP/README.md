@@ -19,4 +19,3 @@ Pipeline:
 5. evaluator.py
 6. visualization.py
 
-Outputs can be stored in outputs/

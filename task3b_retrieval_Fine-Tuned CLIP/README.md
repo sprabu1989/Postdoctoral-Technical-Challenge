@@ -22,4 +22,3 @@ Pipeline:
 7. evaluator.py
 8. visualization.py
 
-Outputs stored in outputs/
